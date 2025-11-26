@@ -70,3 +70,6 @@ if (downloadCvLink) {
     });
 }
     // 👆 NEW
+window.addEventListener("load", () => {
+    window.location.hash = "#home";
+});
