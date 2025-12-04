@@ -57,16 +57,16 @@ var typed = new Typed (".text", {
     // 👇 NEW: Handle the Download CV link to open the Drive URL
     // New block to handle simultaneous download and new tab view
 const downloadCvLink = document.getElementById('download-cv-link');
-// Use the original 'view' link for the new tab
-const driveViewLink = "https://drive.google.com/file/d/1hIAleMUDRNtKMuz6EnEEuDcrdX9nQWxv/view?usp=drive_link";
+
+// Updated drive view link
+const driveViewLink = "https://drive.google.com/file/d/1IJpM03bUyW8ghvJMVp4O4C3HWHHDx8aD/view?usp=drive_link";
 
 if (downloadCvLink) {
     downloadCvLink.addEventListener('click', () => {
         // 1. Open the file in a new tab (using the view link)
         window.open(driveViewLink, '_blank');
         
-        // 2. The direct file download is already triggered by the link's href attribute.
-        // We let the default action of the link happen after the new tab opens.
+        // 2. Let the default download action happen
     });
 }
     // 👆 NEW
