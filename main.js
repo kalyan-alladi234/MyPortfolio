@@ -59,7 +59,7 @@ var typed = new Typed (".text", {
 const downloadCvLink = document.getElementById('download-cv-link');
 
 // Updated drive view link
-const driveViewLink = "https://drive.google.com/file/d/1IJpM03bUyW8ghvJMVp4O4C3HWHHDx8aD/view?usp=drive_link";
+const driveViewLink = "https://drive.google.com/file/d/13CSlEhusWc8RJ5wSJzcqyTRQZqQXEyqO/view?usp=drive_link";
 
 if (downloadCvLink) {
     downloadCvLink.addEventListener('click', () => {
